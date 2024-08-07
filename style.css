@@ -624,9 +624,6 @@ footer .bg{
     align-items: center;
     gap: 18rem;
 }
-.sub-explore:nth-child(odd){
-    flex-direction: row;
-}
 .sub-explore:nth-child(even){
     flex-direction: row-reverse;
 }
@@ -639,4 +636,25 @@ ul{
 }
 .hover-content li{
     color: #21375780;
+}
+@media screen and (max-width: 1200px) {
+    .sub-explore{
+        flex-direction: column !important;
+        gap: 2.5rem;
+        margin: 0 10rem;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sub-explore-wrapper{
+        gap: 5rem;
+    }
+    .sub-explore{
+        max-width: 20rem;
+        margin: 0;
+    }
+    .sub-explore img{
+        width: 90vw;
+        height: auto;
+    }
 }
