@@ -575,9 +575,9 @@ footer .bg{
         display: flex;
         flex-direction: column;
     }
-    /* .contact-us .stars-left, .stars-right{
-        
-    } */
+    .contact-us .stars-left, .stars-right{
+        display: none;
+    }
     .pages-wrapper{
         gap: 2rem;
     }
