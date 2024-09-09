@@ -581,6 +581,10 @@ footer .bg{
     .pages-wrapper{
         gap: 2rem;
     }
+    .card:last-child{
+        width: 90%;
+        align-self: center;
+    }
     .testimonial-wrapper h1{
         padding: 0 1rem;
     }
